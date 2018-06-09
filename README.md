@@ -1,18 +1,18 @@
-# Live Event Android
+# Hashtrends
 
-A sample Android app using Twitter Kit to help participants follow what's happening at an event.
+A sample Android app using Twitter Kit and Twitter trends to help users follow what's trending in there surroundings.
 
 ![Screens from the app](screenshot.png)
 
-(originally written by Luis Cipriani as a sample from Qcon Sao Paulo)
+(originally written by Shivank Gupta,Shivam Gupta, Naman Saxena as a sample using Twitter Sdk kit and twitter api).
 
 ## Features
 
-* Event hashtag timeline
-* Create a Tweet with event hashtag pre-filled
-* Follow other participants by scanning a QR code (in the app or printed on conference badge)
-* Share your user handle QR Code to someone
-* Follow event organizer accounts
+* Trending hashtag timeline
+* HashTag search according to the location(eg: India, Winnipeg, Toronto, Jaipur)
+* Checks the Category of the HashTag(eg: Tech, Politics, News etc)
+* Allows to to see hashtag related tweets
+* Allows you to enter the group chat and start the disscussion on a relatable topic
 
 ## Twitter Kit features
 
@@ -39,21 +39,11 @@ See [how to integrate the SDK](https://dev.twitter.com/twitterkit/android/instal
 
 ## Get support
 
-If you need support to build the app or to understand any part of the code, let us know. Post your question in the [Twitter Developer Community](https://twittercommunity.com/c/publisher/twitter) forum.
-
-## Contributing
-
-The goal of this project is to be an example for Twitter Kit and we strive to keep it simple. We definitely welcome improvements and fixes, but we may not merge every pull request suggested by the community.
-
-The rules for contributing are available in the `CONTRIBUTING.md` file.
+If you need support to build the app or to understand any part of the code, let us know. Email your question at the [Email Id](shivank.1404@gmail.com).
 
 ## Contributors
 
-* [Luis Cipriani](https://twitter.com/lfcipriani)
-* [Andy Piper](https://twitter.com/andypiper)
+* [Shivank Gupta](https://www.linkedin.com/in/shivank-gupta-1404/)
 
-## License
 
-Copyright 2015 Twitter, Inc and other contributors.
 
-Licensed under the Apache License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0
