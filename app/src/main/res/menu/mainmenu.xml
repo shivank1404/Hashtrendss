@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="102"
+        app:showAsAction="always"
+        android:title="Refresh"
+        android:icon="@android:drawable/stat_notify_sync" />
+    <item
+        android:id="@+id/action_settings"
+        android:title="Settings">
+    </item>
+
+    <item
+        android:id="@+id/recent_search"
+        android:title="Recent Search">
+    </item>
+
+    <item android:title="Places"
+        android:id="@+id/places" />
+
+
+</menu>

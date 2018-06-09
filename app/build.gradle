@@ -1,0 +1,78 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+    }
+}
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+
+Properties props = new Properties()
+try {
+    props.load(file('twitter.properties').newDataInputStream())
+} catch (Exception e) {
+    throw new FileNotFoundException("Missing twitter.properties, check the twitter.sample.properties file.");
+}
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion '26.0.3'
+
+    defaultConfig {
+        applicationId "com.twitter.dpr.event"
+        minSdkVersion 17
+        targetSdkVersion 27
+        versionCode 1
+        versionName "0.0.3"
+    }
+    buildTypes {
+        debug {
+            buildConfigField "String", "CONSUMER_KEY", "\"${props.getProperty("twitterConsumerKey")}\""
+            buildConfigField "String", "CONSUMER_SECRET", "\"${props.getProperty("twitterConsumerSecret")}\""
+        }
+        release {
+            buildConfigField "String", "CONSUMER_KEY", "\"${props.getProperty("twitterConsumerKey")}\""
+            buildConfigField "String", "CONSUMER_SECRET", "\"${props.getProperty("twitterConsumerSecret")}\""
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+
+    maven {
+        url "http://dl.bintray.com/journeyapps/maven"
+    }
+    jcenter()
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    compile 'com.journeyapps:zxing-android-embedded:3.5.0'
+    //noinspection GradleCompatible
+    compile 'com.android.support:appcompat-v7:27.1.1'   // Version 23+ is required
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
+    //noinspection GradleCompatible
+    compile 'com.google.firebase:firebase-core:9.4.0'
+    compile 'com.firebaseui:firebase-ui:0.6.0'
+    compile 'com.android.support:design:27.1.1'
+
+    compile  'com.squareup.retrofit2:converter-scalars:2.1.0'
+
+    compile 'com.squareup.retrofit2:retrofit:2.3.0'
+    compile 'com.twitter.sdk.android:twitter:3.0.0'
+   // androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+   //     exclude group: 'com.android.support', module: 'support-annotations'
+    //})
+    testCompile 'junit:junit:4.12'
+    //compile 'com.android.support:design:27.1.1'
+    compile files('libs/twitter4j-core-4.0.4.jar')
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}
+apply plugin: 'com.google.gms.google-services'

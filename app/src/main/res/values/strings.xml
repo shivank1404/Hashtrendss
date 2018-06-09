@@ -1,0 +1,42 @@
+<resources>
+
+    <string name="app_name">#Hashtrends</string>
+    <string name="hashtag" translatable="false">#FranklySpeakingWithAmitShah</string><!-- Hashtag to suggest when composing a tweet -->
+    <string name="twitter_search" translatable="false">#FranklySpeakingWithAmitShah OR from:AmitShahOffice<!-- OR twittercommunity.com--></string> <!-- Learn to build search queries at https://dev.twitter.com/rest/public/search -->
+    <string name="account_to_follow">Shvnk.1404</string>
+
+
+
+    <string name="menu_create_tweet">Create Tweet</string>
+    <string name="menu_search_tweet">search Tweet</string>
+    <string name="menu_follow">Follow via QR Code</string>
+    <string name="menu_share_handle">Share your handle</string>
+    <string name="menu_about">About</string>
+    <string name="menu_account_to_follow">Follow</string>
+    <string name="menu_sign_out">Sign out</string>
+
+    <string name="toast_follow_user_success">You are now following</string>
+    <string name="toast_follow_user_error">Failed to follow user, try again later.</string>
+    <string name="toast_sign_out">User signed out successfully.</string>
+
+    <string name="qrcode_label">QR Code</string>
+    <string name="scan_prompt">The QR Code can be found in the meetup badge or the "Share handle" option in this app.\nScan the QR code to follow someone.</string>
+    <string name="loading">Loading…</string>
+
+
+    <string name="title_activity_share_handle">Share handle</string>
+    <string name="instructions">Ask your friend to scan this QR code with this app.</string>
+    <string name="message">Scan this to follow</string>
+
+
+    <string name="title_activity_search_handle">Search</string>
+    <string name="Dis">Search Hashtags.</string>
+
+
+    <string name="title_activity_about">About</string>
+    <string name="app_built_with">This app is built as 3rd year minor project and will be launched as beta version
+    </string>
+    <string name="twitter_kit">By: Shivank(B11), Shivam(B12), Naman(B12) </string>
+    <string name="learn_more"></string>
+
+</resources>

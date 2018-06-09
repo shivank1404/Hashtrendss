@@ -1,0 +1,18 @@
+Tries aur tst toh geeksforgeeks se pad le insertion searching aur deletion
+https://www.youtube.com/watch?v=VA9m_l6LpwI&t=37s
+
+https://www.youtube.com/watch?v=UrmjCSM7wDw&t=659s
+
+ye do videos suffix tree k liye.. second video aadhi hi h kaam ki
+
+[12:06, 3/31/2018] Shivam Gupta: https://www.youtube.com/watch?v=2LHJoVRXFdU&t=1s
+
+[12:06, 3/31/2018] Shivam Gupta: https://www.youtube.com/watch?v=9SPhD49ePXg&t=4s
+
+[12:06, 3/31/2018] Shivam Gupta: ye do cuckoo aur coalsced hashing ki hn
+
+
+[12:07, 3/31/2018] Shivam Gupta: baaki bacha cichelles jo tuje mil jaaega araam se.. aur RSA ka sir keh rhe the ki monday ko ek solved example share krenge toh usme se dekh lena
+
+
+[12:08, 3/31/2018] Shivam Gupta: Disjoint sets nhi pada abhi maine
