@@ -39,11 +39,12 @@ See [how to integrate the SDK](https://dev.twitter.com/twitterkit/android/instal
 
 ## Get support
 
-If you need support to build the app or to understand any part of the code, let us know. Email your question at the [Email Id](shivank.1404@gmail.com).
+If you need support to build the app or to understand any part of the code, let us know. Email your question at the [Email Id](shivank.1404@gmail.com)  .
 
 ## Contributors
 
 * [Shivank Gupta](https://www.linkedin.com/in/shivank-gupta-1404/)
+* [Shivam Gupta](https://www.linkedin.com/in/shivam-1012/)
 
 
 
